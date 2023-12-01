@@ -71,7 +71,7 @@ def thread_parsing(URL):
     select_city('Москва')
     source_data = driver.page_source
     parse_page(source_data)
-    
+    print('parsed:', URL)
     while True:
         try:
             element = driver.find_elements(By.CLASS_NAME, "nums")[0]
@@ -88,9 +88,9 @@ def thread_parsing(URL):
             except TimeoutException:
                 driver.execute_script("window.stop();")
             
-            print('!!here')
             source_data = driver.page_source
             parse_page(source_data)
+            print('parsed:', url)
             # close_pop_up(driver)
             
         except:
@@ -110,7 +110,7 @@ def parse_page(source_data):
                 f.write(json.dumps(items, ensure_ascii=False) + "\n")
             except Exception as e:
                 pass
-
+    
     return
 
 
