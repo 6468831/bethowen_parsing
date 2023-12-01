@@ -25,6 +25,7 @@ ITEM_DATA_STRINGS = {
 }
 
 def get_items_data(script):
+    '''парсим строку, содержащую данные SKU'''
     counter = script.count("'ARTICLE_SEARCH':'")
     start = 0
     items = []
@@ -47,7 +48,7 @@ def _get_item_data(script, start, data_type):
 
 
 def close_pop_up(driver):
-    print('!close_pop_up')
+    '''скрываем попап'''
     time.sleep(3)
     try:
         element = driver.find_elements(By.CLASS_NAME, "close")[0]
@@ -67,6 +68,7 @@ def thread_parsing(URL):
     except TimeoutException:
         driver.execute_script("window.stop();")
     
+    select_city('Москва')
     source_data = driver.page_source
     parse_page(source_data)
     
@@ -90,7 +92,7 @@ def thread_parsing(URL):
             source_data = driver.page_source
             parse_page(source_data)
             # close_pop_up(driver)
-            break # чтобы не парсил до конца и не напрягал сайт лишний раз
+            
         except:
             break
 
@@ -119,3 +121,7 @@ def get_subcategory_urls():
         for line in f.readlines():
             URLS.append(line.strip())
     return URLS
+
+
+def select_city(city):
+    pass
