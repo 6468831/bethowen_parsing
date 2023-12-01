@@ -4,4 +4,4 @@ cd bethowen_parsing
 
 docker build -t parsing .
 
-docker run -d -v $(pwd)/result.txt:/app/result.txt parsing
+docker run -it -v $(pwd)/result.txt:/app/result.txt parsing
