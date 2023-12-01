@@ -90,6 +90,7 @@ def thread_parsing(URL):
             source_data = driver.page_source
             parse_page(source_data)
             # close_pop_up(driver)
+            break # чтобы не парсил до конца и не напрягал сайт лишний раз
         except:
             break
 
