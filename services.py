@@ -13,6 +13,9 @@ from bs4 import BeautifulSoup as bs
 
 chrome_options = Options()
 chrome_options.add_argument('--headless')
+chrome_options.add_argument('--no-sandbox')
+chrome_options.add_argument('--disable-dev-shm-usage')
+
 
 ITEM_DATA_STRINGS = {
     "name": "'NAME':'",
