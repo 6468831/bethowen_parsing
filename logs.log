@@ -1,0 +1,1134 @@
+proactor_events.py 630 DEBUG 17:32:29 Using proactor: IocpProactor
+google.py 24 WARNING 17:32:29 ! len(items)
+google.py 28 WARNING 17:32:29 ���� ��������� ���������������� ��������� - ���������
+google.py 28 WARNING 17:32:29 ���������� ��������� ������������ ... - ���������
+google.py 28 WARNING 17:32:29 ��������� ���������� � ������� �� ����������� ����
+google.py 28 WARNING 17:32:29 �������, �������: ��� ��� ��������� ��������� ����
+google.py 28 WARNING 17:32:29 ���� - ��������� ������� �������
+google.py 28 WARNING 17:32:29 ��������� ����
+google.py 24 WARNING 17:32:29 ! len(items)
+google.py 28 WARNING 17:32:29 ������ - ���������
+google.py 28 WARNING 17:32:29 ������ � ������������ ������� Wikivoyage
+google.py 28 WARNING 17:32:29 ������
+google.py 28 WARNING 17:32:29 ������ - ��������� ������� �������
+google.py 28 WARNING 17:32:29 ��������� ������� ������ �� ������� �����
+google.py 28 WARNING 17:32:29 ������ (kanada) - �������, ���� � ����� � ...
+google.py 24 WARNING 17:32:29 ! len(items)
+google.py 28 WARNING 17:32:29 ����������� ����� �������
+proactor_events.py 630 DEBUG 17:32:52 Using proactor: IocpProactor
+google.py 24 WARNING 17:32:53 ! len(items)
+google.py 28 WARNING 17:32:53 Союз Советских Социалистических Республик - Википедия
+google.py 28 WARNING 17:32:53 Российская Советская Федеративная ... - Википедия
+google.py 28 WARNING 17:32:53 Подписаны декларация и договор об образовании СССР
+google.py 28 WARNING 17:32:53 Великий, могучий: как был образован Советский Союз
+google.py 28 WARNING 17:32:53 СССР - последние новости сегодня
+google.py 28 WARNING 17:32:53 Советский Союз
+google.py 24 WARNING 17:32:53 ! len(items)
+google.py 28 WARNING 17:32:53 Соединённые Штаты Америки
+google.py 24 WARNING 17:32:53 ! len(items)
+google.py 28 WARNING 17:32:53 Канада - Википедия
+google.py 28 WARNING 17:32:53 Канада — Путеводитель Викигид Wikivoyage
+google.py 28 WARNING 17:32:53 Канада
+google.py 28 WARNING 17:32:53 Канада - последние новости сегодня
+google.py 28 WARNING 17:32:53 Последние новости Канады на русском языке
+google.py 28 WARNING 17:32:53 Канада (kanada) - курорты, туры и отдых в ...
+proactor_events.py 630 DEBUG 17:33:03 Using proactor: IocpProactor
+google.py 24 WARNING 17:33:04 ! len(items)
+google.py 28 WARNING 17:33:04 Союз Советских Социалистических Республик - Википедия
+google.py 28 WARNING 17:33:04 Российская Советская Федеративная ... - Википедия
+google.py 28 WARNING 17:33:04 Подписаны декларация и договор об образовании СССР
+google.py 28 WARNING 17:33:04 Великий, могучий: как был образован Советский Союз
+google.py 28 WARNING 17:33:04 СССР - последние новости сегодня
+google.py 28 WARNING 17:33:04 Советский Союз
+google.py 24 WARNING 17:33:04 ! len(items)
+google.py 28 WARNING 17:33:04 Канада - Википедия
+google.py 28 WARNING 17:33:04 Канада — Путеводитель Викигид Wikivoyage
+google.py 28 WARNING 17:33:04 Канада
+google.py 28 WARNING 17:33:04 Канада - последние новости сегодня
+google.py 28 WARNING 17:33:04 Последние новости Канады на русском языке
+google.py 28 WARNING 17:33:04 Канада (kanada) - курорты, туры и отдых в ...
+google.py 24 WARNING 17:33:04 ! len(items)
+google.py 28 WARNING 17:33:04 Соединённые Штаты Америки
+proactor_events.py 630 DEBUG 17:41:40 Using proactor: IocpProactor
+google.py 24 WARNING 17:41:41 ! len(items)
+google.py 28 WARNING 17:41:41 Союз Советских Социалистических Республик - Википедия
+google.py 28 WARNING 17:41:41 Российская Советская Федеративная ... - Википедия
+google.py 28 WARNING 17:41:41 Подписаны декларация и договор об образовании СССР
+google.py 28 WARNING 17:41:41 Великий, могучий: как был образован Советский Союз
+google.py 28 WARNING 17:41:41 СССР - последние новости сегодня
+google.py 28 WARNING 17:41:41 Советский Союз
+google.py 24 WARNING 17:41:41 ! len(items)
+google.py 28 WARNING 17:41:41 Соединённые Штаты Америки
+google.py 24 WARNING 17:41:41 ! len(items)
+google.py 28 WARNING 17:41:41 Канада - Википедия
+google.py 28 WARNING 17:41:41 Канада — Путеводитель Викигид Wikivoyage
+google.py 28 WARNING 17:41:41 Канада
+google.py 28 WARNING 17:41:41 Канада - последние новости сегодня
+google.py 28 WARNING 17:41:41 Последние новости Канады на русском языке
+google.py 28 WARNING 17:41:41 Канада
+proactor_events.py 630 DEBUG 10:36:21 Using proactor: IocpProactor
+base_events.py 1752 ERROR 10:36:21 _GatheringFuture exception was never retrieved
+future: <_GatheringFuture finished exception=RuntimeError('Session is closed')>
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\google.py", line 24, in parse_subcat
+    async with session.get(url) as r:
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\client.py", line 1187, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\client.py", line 421, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed
+google.py 45 DEBUG 10:36:21 0.0070037841796875
+proactor_events.py 630 DEBUG 10:36:53 Using proactor: IocpProactor
+base_events.py 1752 ERROR 10:36:53 _GatheringFuture exception was never retrieved
+future: <_GatheringFuture finished exception=RuntimeError('Session is closed')>
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\google.py", line 24, in parse_subcat
+    async with session.get(url) as r:
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\client.py", line 1187, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\client.py", line 421, in _request
+    raise RuntimeError("Session is closed")
+RuntimeError: Session is closed
+google.py 45 DEBUG 10:36:53 0.004976749420166016
+proactor_events.py 630 DEBUG 10:38:05 Using proactor: IocpProactor
+proactor_events.py 630 DEBUG 10:39:13 Using proactor: IocpProactor
+google.py 27 WARNING 10:39:13 ! len(items)
+google.py 31 WARNING 10:39:13 Союз Советских Социалистических Республик - Википедия
+google.py 31 WARNING 10:39:13 Союз Советских Социалистических Республик
+google.py 31 WARNING 10:39:13 Российская Советская Федеративная ...
+google.py 31 WARNING 10:39:13 Подписаны декларация и договор об образовании СССР
+google.py 31 WARNING 10:39:13 Великий, могучий: как был образован Советский Союз
+google.py 31 WARNING 10:39:13 СССР - последние новости сегодня
+google.py 31 WARNING 10:39:13 Советский Союз
+google.py 27 WARNING 10:39:14 ! len(items)
+google.py 31 WARNING 10:39:14 Соединённые Штаты Америки
+google.py 27 WARNING 10:39:14 ! len(items)
+google.py 31 WARNING 10:39:14 Канада - Википедия
+google.py 31 WARNING 10:39:14 Канада
+google.py 31 WARNING 10:39:14 Канада — Путеводитель Викигид Wikivoyage
+google.py 31 WARNING 10:39:14 Канада - последние новости сегодня
+google.py 31 WARNING 10:39:14 Последние новости Канады на русском языке
+google.py 31 WARNING 10:39:14 Канада
+google.py 45 DEBUG 10:39:14 0.8120579719543457
+proactor_events.py 630 DEBUG 12:54:16 Using proactor: IocpProactor
+proactor_events.py 630 DEBUG 12:54:23 Using proactor: IocpProactor
+google.py 24 WARNING 12:54:24 ! len(items)
+google.py 24 WARNING 12:54:24 ! len(items)
+google.py 24 WARNING 12:54:24 ! len(items)
+google.py 44 DEBUG 12:54:24 1.1571533679962158
+proactor_events.py 630 DEBUG 12:54:44 Using proactor: IocpProactor
+google.py 24 WARNING 12:54:45 ! len(items)
+google.py 24 WARNING 12:54:45 ! len(items)
+google.py 24 WARNING 12:54:45 ! len(items)
+google.py 44 DEBUG 12:54:45 1.1132638454437256
+proactor_events.py 630 DEBUG 13:10:56 Using proactor: IocpProactor
+google.py 24 WARNING 13:10:58 ! len(items)
+google.py 24 WARNING 13:10:58 ! len(items)
+google.py 24 WARNING 13:10:58 ! len(items)
+google.py 44 DEBUG 13:10:58 1.1592462062835693
+proactor_events.py 630 DEBUG 13:11:31 Using proactor: IocpProactor
+google.py 24 WARNING 13:11:32 ! len(items) []
+google.py 24 WARNING 13:11:32 ! len(items) []
+google.py 24 WARNING 13:11:32 ! len(items) []
+google.py 44 DEBUG 13:11:32 1.1574201583862305
+proactor_events.py 630 DEBUG 13:11:54 Using proactor: IocpProactor
+google.py 25 WARNING 13:11:55 ! len(items) []
+google.py 25 WARNING 13:11:56 ! len(items) []
+google.py 25 WARNING 13:11:56 ! len(items) []
+google.py 45 DEBUG 13:11:56 2.083392858505249
+proactor_events.py 630 DEBUG 13:12:28 Using proactor: IocpProactor
+google.py 24 WARNING 13:12:29 ! len(items)
+google.py 28 WARNING 13:12:29 Союз Советских Социалистических Республик - Википедия
+google.py 28 WARNING 13:12:29 Союз Советских Социалистических Республик
+google.py 28 WARNING 13:12:29 Российская Советская Федеративная ... - Википедия
+google.py 28 WARNING 13:12:29 Подписаны декларация и договор об образовании СССР
+google.py 28 WARNING 13:12:29 Великий, могучий: как был образован Советский Союз
+google.py 28 WARNING 13:12:29 СССР - последние новости сегодня
+google.py 24 WARNING 13:12:29 ! len(items)
+google.py 28 WARNING 13:12:29 Соединённые Штаты Америки
+google.py 24 WARNING 13:12:29 ! len(items)
+google.py 28 WARNING 13:12:29 Канада - Википедия
+google.py 28 WARNING 13:12:29 Канада
+google.py 28 WARNING 13:12:29 Канада — Путеводитель Викигид Wikivoyage
+google.py 28 WARNING 13:12:29 Канада - последние новости сегодня
+google.py 28 WARNING 13:12:29 США и Канада добавили в санкционные списки десятки ...
+google.py 28 WARNING 13:12:29 Последние новости Канады на русском языке
+google.py 44 DEBUG 13:12:29 0.8272092342376709
+proactor_events.py 630 DEBUG 13:31:03 Using proactor: IocpProactor
+aiohttp_server.py 16 DEBUG 13:31:40 here
+proactor_events.py 630 DEBUG 13:31:40 Using proactor: IocpProactor
+aiohttp_server.py 18 DEBUG 13:31:54 !here
+aiohttp_server.py 16 DEBUG 13:31:57 here
+proactor_events.py 630 DEBUG 13:31:57 Using proactor: IocpProactor
+aiohttp_server.py 6 DEBUG 13:33:44 here
+web_log.py 211 INFO 13:33:44 127.0.0.1 [14/Dec/2023:13:33:44 +0300] "GET /hello HTTP/1.1" 200 164 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+aiohttp_server.py 6 DEBUG 13:33:45 here
+web_log.py 211 INFO 13:33:45 127.0.0.1 [14/Dec/2023:13:33:45 +0300] "GET /favicon.ico HTTP/1.1" 200 170 "http://127.0.0.1:8080/hello" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+aiohttp_server.py 6 DEBUG 13:33:54 here
+web_log.py 211 INFO 13:33:54 127.0.0.1 [14/Dec/2023:13:33:54 +0300] "GET /hello,%20world HTTP/1.1" 200 171 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+aiohttp_server.py 6 DEBUG 13:34:00 here
+web_log.py 211 INFO 13:34:00 127.0.0.1 [14/Dec/2023:13:34:00 +0300] "GET /hello,_world HTTP/1.1" 200 171 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+web_protocol.py 421 ERROR 13:34:18 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 13:34:18 127.0.0.1 [14/Dec/2023:13:34:18 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+aiohttp_server.py 18 DEBUG 13:39:47 !here
+aiohttp_server.py 22 DEBUG 13:39:48 here
+proactor_events.py 630 DEBUG 13:39:48 Using proactor: IocpProactor
+web_protocol.py 421 ERROR 13:44:20 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 13:44:20 127.0.0.1 [14/Dec/2023:13:44:20 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+aiohttp_server.py 24 DEBUG 13:45:27 !here
+aiohttp_server.py 22 DEBUG 13:45:29 here
+proactor_events.py 630 DEBUG 13:45:29 Using proactor: IocpProactor
+aiohttp_server.py 6 DEBUG 13:47:14 here
+aiohttp_server.py 9 DEBUG 13:47:14 Hello, hey
+aiohttp_server.py 6 DEBUG 13:47:14 here
+aiohttp_server.py 9 DEBUG 13:47:14 Hello, hey
+aiohttp_server.py 6 DEBUG 13:47:14 here
+aiohttp_server.py 9 DEBUG 13:47:14 Hello, hey
+aiohttp_server.py 6 DEBUG 13:47:14 here
+aiohttp_server.py 9 DEBUG 13:47:14 Hello, hey
+aiohttp_server.py 6 DEBUG 13:47:14 here
+aiohttp_server.py 9 DEBUG 13:47:14 Hello, hey
+aiohttp_server.py 6 DEBUG 13:47:14 here
+aiohttp_server.py 9 DEBUG 13:47:14 Hello, hey
+aiohttp_server.py 6 DEBUG 13:47:14 here
+aiohttp_server.py 9 DEBUG 13:47:14 Hello, hey
+aiohttp_server.py 6 DEBUG 13:47:14 here
+aiohttp_server.py 9 DEBUG 13:47:14 Hello, hey
+aiohttp_server.py 6 DEBUG 13:47:14 here
+aiohttp_server.py 9 DEBUG 13:47:14 Hello, hey
+aiohttp_server.py 6 DEBUG 13:47:14 here
+aiohttp_server.py 9 DEBUG 13:47:14 Hello, hey
+aiohttp_server.py 24 DEBUG 13:47:28 !here
+aiohttp_server.py 22 DEBUG 13:47:29 here
+proactor_events.py 630 DEBUG 13:47:29 Using proactor: IocpProactor
+aiohttp_server.py 6 DEBUG 13:47:32 here
+aiohttp_server.py 9 DEBUG 13:47:32 Hello, hey
+aiohttp_server.py 6 DEBUG 13:47:32 here
+aiohttp_server.py 9 DEBUG 13:47:32 Hello, hey
+aiohttp_server.py 6 DEBUG 13:47:32 here
+aiohttp_server.py 9 DEBUG 13:47:32 Hello, hey
+aiohttp_server.py 6 DEBUG 13:47:32 here
+aiohttp_server.py 9 DEBUG 13:47:32 Hello, hey
+aiohttp_server.py 6 DEBUG 13:47:32 here
+aiohttp_server.py 9 DEBUG 13:47:32 Hello, hey
+aiohttp_server.py 6 DEBUG 13:47:32 here
+aiohttp_server.py 9 DEBUG 13:47:32 Hello, hey
+aiohttp_server.py 6 DEBUG 13:47:32 here
+aiohttp_server.py 9 DEBUG 13:47:32 Hello, hey
+aiohttp_server.py 6 DEBUG 13:47:32 here
+aiohttp_server.py 9 DEBUG 13:47:32 Hello, hey
+aiohttp_server.py 6 DEBUG 13:47:32 here
+aiohttp_server.py 9 DEBUG 13:47:32 Hello, hey
+aiohttp_server.py 6 DEBUG 13:47:32 here
+aiohttp_server.py 9 DEBUG 13:47:32 Hello, hey
+aiohttp_server.py 6 DEBUG 13:48:00 here
+aiohttp_server.py 9 DEBUG 13:48:00 Hello, hey
+aiohttp_server.py 6 DEBUG 13:48:00 here
+aiohttp_server.py 9 DEBUG 13:48:00 Hello, hey
+aiohttp_server.py 6 DEBUG 13:48:00 here
+aiohttp_server.py 9 DEBUG 13:48:00 Hello, hey
+aiohttp_server.py 6 DEBUG 13:48:00 here
+aiohttp_server.py 9 DEBUG 13:48:00 Hello, hey
+aiohttp_server.py 6 DEBUG 13:48:00 here
+aiohttp_server.py 9 DEBUG 13:48:00 Hello, hey
+aiohttp_server.py 6 DEBUG 13:48:00 here
+aiohttp_server.py 9 DEBUG 13:48:00 Hello, hey
+aiohttp_server.py 6 DEBUG 13:48:00 here
+aiohttp_server.py 9 DEBUG 13:48:00 Hello, hey
+aiohttp_server.py 6 DEBUG 13:48:00 here
+aiohttp_server.py 9 DEBUG 13:48:00 Hello, hey
+aiohttp_server.py 6 DEBUG 13:48:00 here
+aiohttp_server.py 9 DEBUG 13:48:00 Hello, hey
+aiohttp_server.py 6 DEBUG 13:48:00 here
+aiohttp_server.py 9 DEBUG 13:48:00 Hello, hey
+aiohttp_server.py 6 DEBUG 13:48:03 here
+aiohttp_server.py 9 DEBUG 13:48:03 Hello, hey
+aiohttp_server.py 6 DEBUG 13:48:03 here
+aiohttp_server.py 9 DEBUG 13:48:03 Hello, hey
+aiohttp_server.py 6 DEBUG 13:48:03 here
+aiohttp_server.py 9 DEBUG 13:48:03 Hello, hey
+aiohttp_server.py 6 DEBUG 13:48:03 here
+aiohttp_server.py 9 DEBUG 13:48:03 Hello, hey
+aiohttp_server.py 6 DEBUG 13:48:03 here
+aiohttp_server.py 9 DEBUG 13:48:03 Hello, hey
+aiohttp_server.py 6 DEBUG 13:48:03 here
+aiohttp_server.py 9 DEBUG 13:48:03 Hello, hey
+aiohttp_server.py 6 DEBUG 13:48:03 here
+aiohttp_server.py 9 DEBUG 13:48:03 Hello, hey
+aiohttp_server.py 6 DEBUG 13:48:03 here
+aiohttp_server.py 9 DEBUG 13:48:03 Hello, hey
+aiohttp_server.py 6 DEBUG 13:48:03 here
+aiohttp_server.py 9 DEBUG 13:48:03 Hello, hey
+aiohttp_server.py 6 DEBUG 13:48:03 here
+aiohttp_server.py 9 DEBUG 13:48:03 Hello, hey
+web_protocol.py 421 ERROR 13:54:20 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 13:54:20 127.0.0.1 [14/Dec/2023:13:54:20 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+web_protocol.py 421 ERROR 14:04:20 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 14:04:20 127.0.0.1 [14/Dec/2023:14:04:20 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+web_protocol.py 421 ERROR 14:14:20 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 14:14:20 127.0.0.1 [14/Dec/2023:14:14:20 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+web_protocol.py 421 ERROR 14:24:20 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 14:24:20 127.0.0.1 [14/Dec/2023:14:24:20 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+web_protocol.py 421 ERROR 14:34:21 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 14:34:21 127.0.0.1 [14/Dec/2023:14:34:21 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+aiohttp_server.py 24 DEBUG 14:37:57 !here
+aiohttp_server.py 21 DEBUG 14:38:00 here
+proactor_events.py 630 DEBUG 14:38:00 Using proactor: IocpProactor
+aiohttp_server.py 8 DEBUG 14:38:09 Hello, hey
+web_log.py 211 INFO 14:38:09 127.0.0.1 [14/Dec/2023:14:38:09 +0300] "GET /hey HTTP/1.1" 200 162 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+aiohttp_server.py 8 DEBUG 14:38:23 Hello, hello, world
+web_log.py 211 INFO 14:38:23 127.0.0.1 [14/Dec/2023:14:38:23 +0300] "GET /hello,%20world HTTP/1.1" 200 171 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+aiohttp_server.py 8 DEBUG 14:38:50 Hello, hey
+web_log.py 211 INFO 14:38:50 127.0.0.1 [14/Dec/2023:14:38:50 +0300] "GET /hey HTTP/1.1" 200 162 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+aiohttp_server.py 8 DEBUG 14:39:09 Hello, hey
+web_log.py 211 INFO 14:39:09 127.0.0.1 [14/Dec/2023:14:39:09 +0300] "GET /hey HTTP/1.1" 200 162 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+aiohttp_server.py 23 DEBUG 14:43:35 !here
+aiohttp_server.py 28 DEBUG 14:43:38 here
+proactor_events.py 630 DEBUG 14:43:38 Using proactor: IocpProactor
+web_protocol.py 421 ERROR 14:44:22 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 14:44:22 127.0.0.1 [14/Dec/2023:14:44:22 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+aiohttp_server.py 30 DEBUG 14:45:24 !here
+proactor_events.py 630 DEBUG 14:45:25 Using proactor: IocpProactor
+aiohttp_server.py 9 DEBUG 14:46:24 Hello, hey
+web_protocol.py 421 ERROR 14:46:24 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_app.py", line 543, in _handle
+    resp = await handler(request)
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\aiohttp_server.py", line 10, in handle
+    if is_ajax(request):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\aiohttp_server.py", line 25, in is_ajax
+    requested_html = re.search(r'^text/html', request.META.get('HTTP_ACCEPT'))
+AttributeError: 'Request' object has no attribute 'META'
+web_log.py 211 INFO 14:46:24 127.0.0.1 [14/Dec/2023:14:46:24 +0300] "GET /hey HTTP/1.1" 500 335 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+aiohttp_server.py 9 DEBUG 14:46:47 Hello, hey
+web_protocol.py 421 ERROR 14:46:47 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_app.py", line 543, in _handle
+    resp = await handler(request)
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\aiohttp_server.py", line 10, in handle
+    if is_ajax(request):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\aiohttp_server.py", line 25, in is_ajax
+    print(request.__dict__)
+AttributeError: 'Request' object has no attribute 'META'
+web_log.py 211 INFO 14:46:47 127.0.0.1 [14/Dec/2023:14:46:47 +0300] "GET /hey HTTP/1.1" 500 335 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+proactor_events.py 630 DEBUG 14:46:53 Using proactor: IocpProactor
+aiohttp_server.py 9 DEBUG 14:46:55 Hello, hey
+web_protocol.py 421 ERROR 14:46:55 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_app.py", line 543, in _handle
+    resp = await handler(request)
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\aiohttp_server.py", line 10, in handle
+    if is_ajax(request):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\aiohttp_server.py", line 26, in is_ajax
+    requested_html = re.search(r'^text/html', request.META.get('HTTP_ACCEPT'))
+AttributeError: 'Request' object has no attribute 'META'
+web_log.py 211 INFO 14:46:55 127.0.0.1 [14/Dec/2023:14:46:55 +0300] "GET /hey HTTP/1.1" 500 335 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+proactor_events.py 630 DEBUG 14:47:13 Using proactor: IocpProactor
+aiohttp_server.py 9 DEBUG 14:47:15 Hello, hey
+web_protocol.py 421 ERROR 14:47:15 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_app.py", line 543, in _handle
+    resp = await handler(request)
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\aiohttp_server.py", line 10, in handle
+    if is_ajax(request):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\aiohttp_server.py", line 26, in is_ajax
+    requested_html = re.search(r'^text/html', request.META.get('HTTP_ACCEPT'))
+AttributeError: 'Request' object has no attribute 'META'
+web_log.py 211 INFO 14:47:15 127.0.0.1 [14/Dec/2023:14:47:15 +0300] "GET /hey HTTP/1.1" 500 335 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+web_protocol.py 421 ERROR 14:54:22 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 14:54:22 127.0.0.1 [14/Dec/2023:14:54:22 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+aiohttp_server.py 9 DEBUG 14:56:35 Hello, hey
+web_protocol.py 421 ERROR 14:56:35 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_app.py", line 543, in _handle
+    resp = await handler(request)
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\aiohttp_server.py", line 10, in handle
+    if is_ajax(request):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\aiohttp_server.py", line 26, in is_ajax
+    requested_html = re.search(r'^text/html', request.META.get('HTTP_ACCEPT'))
+AttributeError: 'Request' object has no attribute 'META'
+web_log.py 211 INFO 14:56:35 127.0.0.1 [14/Dec/2023:14:56:35 +0300] "GET /hey HTTP/1.1" 500 335 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+proactor_events.py 630 DEBUG 14:56:53 Using proactor: IocpProactor
+aiohttp_server.py 9 DEBUG 14:56:55 Hello, hey
+web_protocol.py 421 ERROR 14:56:55 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_app.py", line 543, in _handle
+    resp = await handler(request)
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\aiohttp_server.py", line 10, in handle
+    if is_ajax(request):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\aiohttp_server.py", line 26, in is_ajax
+    requested_html = re.search(r'^text/html', request.META.get('HTTP_ACCEPT'))
+AttributeError: 'Request' object has no attribute 'META'
+web_log.py 211 INFO 14:56:55 127.0.0.1 [14/Dec/2023:14:56:55 +0300] "GET /hey HTTP/1.1" 500 335 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+proactor_events.py 630 DEBUG 14:57:11 Using proactor: IocpProactor
+proactor_events.py 630 DEBUG 14:57:17 Using proactor: IocpProactor
+aiohttp_server.py 9 DEBUG 14:57:19 Hello, hey
+web_protocol.py 421 ERROR 14:57:19 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_app.py", line 543, in _handle
+    resp = await handler(request)
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\aiohttp_server.py", line 10, in handle
+    if is_ajax(request):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\aiohttp_server.py", line 25, in is_ajax
+    print('!!', request._protocol.__dict__)
+AttributeError: 'RequestHandler' object has no attribute '__dict__'
+web_log.py 211 INFO 14:57:19 127.0.0.1 [14/Dec/2023:14:57:19 +0300] "GET /hey HTTP/1.1" 500 335 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+aiohttp_server.py 9 DEBUG 14:57:39 Hello, hey
+web_protocol.py 421 ERROR 14:57:39 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_app.py", line 543, in _handle
+    resp = await handler(request)
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\aiohttp_server.py", line 10, in handle
+    if is_ajax(request):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\aiohttp_server.py", line 25, in is_ajax
+    print('!!', request._protocol.__dir__())
+AttributeError: 'RequestHandler' object has no attribute '__dict__'
+web_log.py 211 INFO 14:57:39 127.0.0.1 [14/Dec/2023:14:57:39 +0300] "GET /hey HTTP/1.1" 500 335 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+proactor_events.py 630 DEBUG 14:57:43 Using proactor: IocpProactor
+aiohttp_server.py 9 DEBUG 14:57:45 Hello, hey
+web_protocol.py 421 ERROR 14:57:45 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 452, in _handle_request
+    resp = await request_handler(request)
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_app.py", line 543, in _handle
+    resp = await handler(request)
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\aiohttp_server.py", line 10, in handle
+    if is_ajax(request):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\aiohttp_server.py", line 26, in is_ajax
+    requested_html = re.search(r'^text/html', request.META.get('HTTP_ACCEPT'))
+AttributeError: 'Request' object has no attribute 'META'
+web_log.py 211 INFO 14:57:45 127.0.0.1 [14/Dec/2023:14:57:45 +0300] "GET /hey HTTP/1.1" 500 335 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+web_protocol.py 421 ERROR 15:04:22 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 15:04:22 127.0.0.1 [14/Dec/2023:15:04:22 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+web_protocol.py 421 ERROR 15:14:22 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 15:14:22 127.0.0.1 [14/Dec/2023:15:14:22 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+proactor_events.py 630 DEBUG 15:19:36 Using proactor: IocpProactor
+aiohttp_server.py 9 DEBUG 15:19:43 Hey, Anonymous
+web_log.py 211 INFO 15:19:43 127.0.0.1 [14/Dec/2023:15:19:43 +0300] "GET /hey HTTP/1.1" 200 187 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+proactor_events.py 630 DEBUG 15:20:18 Using proactor: IocpProactor
+proactor_events.py 630 DEBUG 15:21:16 Using proactor: IocpProactor
+aiohttp_server.py 8 DEBUG 15:21:44 Hey
+web_log.py 211 INFO 15:21:44 127.0.0.1 [14/Dec/2023:15:21:44 +0300] "GET /hey HTTP/1.1" 200 176 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+web_protocol.py 421 ERROR 15:24:22 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 15:24:22 127.0.0.1 [14/Dec/2023:15:24:22 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+aiohttp_server.py 8 DEBUG 15:30:13 Hey
+web_log.py 211 INFO 15:30:13 127.0.0.1 [14/Dec/2023:15:30:13 +0300] "GET /hey HTTP/1.1" 200 176 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+web_protocol.py 421 ERROR 15:34:23 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 15:34:23 127.0.0.1 [14/Dec/2023:15:34:23 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+web_protocol.py 421 ERROR 17:05:46 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 17:05:46 127.0.0.1 [14/Dec/2023:17:05:46 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+web_protocol.py 421 ERROR 17:15:47 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 17:15:47 127.0.0.1 [14/Dec/2023:17:15:47 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+web_protocol.py 421 ERROR 17:25:47 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 17:25:47 127.0.0.1 [14/Dec/2023:17:25:47 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+proactor_events.py 630 DEBUG 17:30:24 Using proactor: IocpProactor
+proactor_events.py 630 DEBUG 17:32:46 Using proactor: IocpProactor
+aiohttp_server.py 9 DEBUG 17:32:50 Hey
+web_log.py 211 INFO 17:32:50 127.0.0.1 [14/Dec/2023:17:32:50 +0300] "GET /hey HTTP/1.1" 200 176 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+web_protocol.py 421 ERROR 17:35:47 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 17:35:47 127.0.0.1 [14/Dec/2023:17:35:47 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+proactor_events.py 630 DEBUG 17:41:38 Using proactor: IocpProactor
+aiohttp_server.py 9 DEBUG 17:41:43 Hey
+web_log.py 211 INFO 17:41:43 127.0.0.1 [14/Dec/2023:17:41:43 +0300] "GET /hey HTTP/1.1" 200 176 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+aiohttp_server.py 9 DEBUG 17:43:43 Hey
+web_log.py 211 INFO 17:43:43 127.0.0.1 [14/Dec/2023:17:43:43 +0300] "GET /hey HTTP/1.1" 200 176 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+aiohttp_server.py 9 DEBUG 17:43:44 Hey
+web_log.py 211 INFO 17:43:44 127.0.0.1 [14/Dec/2023:17:43:44 +0300] "GET /hey HTTP/1.1" 200 176 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+aiohttp_server.py 9 DEBUG 17:44:05 Hey
+web_log.py 211 INFO 17:44:05 127.0.0.1 [14/Dec/2023:17:44:05 +0300] "GET /hey HTTP/1.1" 200 176 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+aiohttp_server.py 9 DEBUG 17:44:06 Hey
+web_log.py 211 INFO 17:44:06 127.0.0.1 [14/Dec/2023:17:44:06 +0300] "GET /hey HTTP/1.1" 200 176 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+aiohttp_server.py 9 DEBUG 17:44:26 Hey
+web_log.py 211 INFO 17:44:26 127.0.0.1 [14/Dec/2023:17:44:26 +0300] "GET /hey HTTP/1.1" 200 176 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+aiohttp_server.py 9 DEBUG 17:44:35 Hey
+web_log.py 211 INFO 17:44:35 127.0.0.1 [14/Dec/2023:17:44:35 +0300] "GET /hey HTTP/1.1" 200 176 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+web_protocol.py 421 ERROR 17:45:47 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 17:45:47 127.0.0.1 [14/Dec/2023:17:45:47 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+aiohttp_server.py 9 DEBUG 17:45:58 Hey
+web_log.py 211 INFO 17:45:58 127.0.0.1 [14/Dec/2023:17:45:58 +0300] "GET /hey HTTP/1.1" 200 176 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+aiohttp_server.py 9 DEBUG 17:48:15 Hey
+web_log.py 211 INFO 17:48:15 127.0.0.1 [14/Dec/2023:17:48:15 +0300] "GET /hey HTTP/1.1" 200 176 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+aiohttp_server.py 9 DEBUG 17:49:34 Hey
+web_log.py 211 INFO 17:49:34 127.0.0.1 [14/Dec/2023:17:49:34 +0300] "GET /hey HTTP/1.1" 200 176 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+aiohttp_server.py 9 DEBUG 17:49:35 Hey
+web_log.py 211 INFO 17:49:35 127.0.0.1 [14/Dec/2023:17:49:35 +0300] "GET /hey HTTP/1.1" 200 176 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+aiohttp_server.py 9 DEBUG 17:49:36 Hey
+web_log.py 211 INFO 17:49:36 127.0.0.1 [14/Dec/2023:17:49:36 +0300] "GET /hey HTTP/1.1" 200 176 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+aiohttp_server.py 9 DEBUG 17:49:36 Hey
+web_log.py 211 INFO 17:49:36 127.0.0.1 [14/Dec/2023:17:49:36 +0300] "GET /hey HTTP/1.1" 200 176 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+aiohttp_server.py 9 DEBUG 17:49:36 Hey
+web_log.py 211 INFO 17:49:36 127.0.0.1 [14/Dec/2023:17:49:36 +0300] "GET /hey HTTP/1.1" 200 176 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+aiohttp_server.py 9 DEBUG 17:49:36 Hey
+web_log.py 211 INFO 17:49:36 127.0.0.1 [14/Dec/2023:17:49:36 +0300] "GET /hey HTTP/1.1" 200 176 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+aiohttp_server.py 9 DEBUG 17:49:39 Hey
+web_log.py 211 INFO 17:49:39 127.0.0.1 [14/Dec/2023:17:49:39 +0300] "GET /hey HTTP/1.1" 200 176 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+aiohttp_server.py 9 DEBUG 17:50:14 Hey
+web_log.py 211 INFO 17:50:14 127.0.0.1 [14/Dec/2023:17:50:14 +0300] "GET /hey HTTP/1.1" 200 176 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+aiohttp_server.py 9 DEBUG 17:50:15 Hey
+web_log.py 211 INFO 17:50:15 127.0.0.1 [14/Dec/2023:17:50:15 +0300] "GET /hey HTTP/1.1" 200 176 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+web_protocol.py 421 ERROR 17:55:48 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 17:55:48 127.0.0.1 [14/Dec/2023:17:55:48 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+web_protocol.py 421 ERROR 18:05:47 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 18:05:47 127.0.0.1 [14/Dec/2023:18:05:47 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+web_protocol.py 421 ERROR 18:15:47 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 18:15:47 127.0.0.1 [14/Dec/2023:18:15:47 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+web_protocol.py 421 ERROR 18:25:49 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 18:25:49 127.0.0.1 [14/Dec/2023:18:25:49 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+web_protocol.py 421 ERROR 18:35:49 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 18:35:49 127.0.0.1 [14/Dec/2023:18:35:49 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+web_protocol.py 421 ERROR 18:45:50 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 18:45:50 127.0.0.1 [14/Dec/2023:18:45:50 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+web_protocol.py 421 ERROR 18:55:51 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 18:55:51 127.0.0.1 [14/Dec/2023:18:55:51 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+web_protocol.py 421 ERROR 19:05:51 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 19:05:51 127.0.0.1 [14/Dec/2023:19:05:51 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+web_protocol.py 421 ERROR 19:15:52 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 19:15:52 127.0.0.1 [14/Dec/2023:19:15:52 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+web_protocol.py 421 ERROR 19:25:52 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 19:25:52 127.0.0.1 [14/Dec/2023:19:25:52 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+web_protocol.py 421 ERROR 19:35:52 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 19:35:52 127.0.0.1 [14/Dec/2023:19:35:52 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+web_protocol.py 421 ERROR 19:45:53 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 19:45:53 127.0.0.1 [14/Dec/2023:19:45:53 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+web_protocol.py 421 ERROR 19:55:53 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 19:55:53 127.0.0.1 [14/Dec/2023:19:55:53 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+web_protocol.py 421 ERROR 20:05:53 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 20:05:53 127.0.0.1 [14/Dec/2023:20:05:53 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+web_protocol.py 421 ERROR 20:15:53 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 20:15:53 127.0.0.1 [14/Dec/2023:20:15:53 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+web_protocol.py 421 ERROR 20:25:54 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 20:25:54 127.0.0.1 [14/Dec/2023:20:25:54 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+web_protocol.py 421 ERROR 20:35:54 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 20:35:54 127.0.0.1 [14/Dec/2023:20:35:54 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+web_protocol.py 421 ERROR 20:45:54 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 20:45:54 127.0.0.1 [14/Dec/2023:20:45:54 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+web_protocol.py 421 ERROR 20:55:54 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 20:55:54 127.0.0.1 [14/Dec/2023:20:55:54 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+web_protocol.py 421 ERROR 21:05:54 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 21:05:54 127.0.0.1 [14/Dec/2023:21:05:54 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+web_protocol.py 421 ERROR 21:15:55 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 21:15:55 127.0.0.1 [14/Dec/2023:21:15:55 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+web_protocol.py 421 ERROR 21:25:56 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 21:25:56 127.0.0.1 [14/Dec/2023:21:25:56 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+web_protocol.py 421 ERROR 21:35:56 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 21:35:56 127.0.0.1 [14/Dec/2023:21:35:56 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+web_protocol.py 421 ERROR 08:31:15 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 08:31:15 127.0.0.1 [15/Dec/2023:08:31:15 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+web_protocol.py 421 ERROR 08:41:13 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 08:41:13 127.0.0.1 [15/Dec/2023:08:41:13 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+web_protocol.py 421 ERROR 08:51:12 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 08:51:12 127.0.0.1 [15/Dec/2023:08:51:12 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+web_protocol.py 421 ERROR 09:01:12 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 09:01:12 127.0.0.1 [15/Dec/2023:09:01:12 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+web_protocol.py 421 ERROR 09:11:13 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 09:11:13 127.0.0.1 [15/Dec/2023:09:11:13 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+aiohttp_server.py 9 DEBUG 09:17:23 Hey
+web_log.py 211 INFO 09:17:24 127.0.0.1 [15/Dec/2023:09:17:23 +0300] "GET /hey HTTP/1.1" 200 176 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+aiohttp_server.py 9 DEBUG 09:17:48 Hey
+web_log.py 211 INFO 09:17:48 127.0.0.1 [15/Dec/2023:09:17:48 +0300] "GET /hey HTTP/1.1" 200 176 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+aiohttp_server.py 9 DEBUG 09:17:49 Hey
+web_log.py 211 INFO 09:17:49 127.0.0.1 [15/Dec/2023:09:17:49 +0300] "GET /hey HTTP/1.1" 200 176 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+aiohttp_server.py 9 DEBUG 09:17:49 Hey
+web_log.py 211 INFO 09:17:49 127.0.0.1 [15/Dec/2023:09:17:49 +0300] "GET /hey HTTP/1.1" 200 176 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+aiohttp_server.py 9 DEBUG 09:17:50 Hey
+web_log.py 211 INFO 09:17:50 127.0.0.1 [15/Dec/2023:09:17:50 +0300] "GET /hey HTTP/1.1" 200 176 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+aiohttp_server.py 9 DEBUG 09:17:50 Hey
+web_log.py 211 INFO 09:17:50 127.0.0.1 [15/Dec/2023:09:17:50 +0300] "GET /hey HTTP/1.1" 200 176 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+aiohttp_server.py 9 DEBUG 09:17:50 Hey
+web_log.py 211 INFO 09:17:50 127.0.0.1 [15/Dec/2023:09:17:50 +0300] "GET /hey HTTP/1.1" 200 176 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+aiohttp_server.py 9 DEBUG 09:17:50 Hey
+web_log.py 211 INFO 09:17:50 127.0.0.1 [15/Dec/2023:09:17:50 +0300] "GET /hey HTTP/1.1" 200 176 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+aiohttp_server.py 9 DEBUG 09:17:50 Hey
+web_log.py 211 INFO 09:17:50 127.0.0.1 [15/Dec/2023:09:17:50 +0300] "GET /hey HTTP/1.1" 200 176 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+aiohttp_server.py 9 DEBUG 09:18:27 Hey
+web_log.py 211 INFO 09:18:27 127.0.0.1 [15/Dec/2023:09:18:27 +0300] "GET /hey HTTP/1.1" 200 176 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+aiohttp_server.py 9 DEBUG 09:18:28 Hey
+web_log.py 211 INFO 09:18:28 127.0.0.1 [15/Dec/2023:09:18:28 +0300] "GET /hey HTTP/1.1" 200 176 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+aiohttp_server.py 15 DEBUG 09:19:31 Hello, favicon.ico
+web_log.py 211 INFO 09:19:31 127.0.0.1 [15/Dec/2023:09:19:31 +0300] "GET /favicon.ico HTTP/1.1" 200 170 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+aiohttp_server.py 9 DEBUG 09:19:37 Hey
+web_log.py 211 INFO 09:19:37 127.0.0.1 [15/Dec/2023:09:19:37 +0300] "GET /hey HTTP/1.1" 200 176 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+aiohttp_server.py 9 DEBUG 09:20:01 Hey
+web_log.py 211 INFO 09:20:01 127.0.0.1 [15/Dec/2023:09:20:01 +0300] "GET /hey HTTP/1.1" 200 176 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+aiohttp_server.py 9 DEBUG 09:20:04 Hey
+web_log.py 211 INFO 09:20:04 127.0.0.1 [15/Dec/2023:09:20:04 +0300] "GET /hey HTTP/1.1" 200 176 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+web_protocol.py 421 ERROR 09:21:13 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 09:21:13 127.0.0.1 [15/Dec/2023:09:21:13 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+aiohttp_server.py 9 DEBUG 09:22:34 Hey
+web_log.py 211 INFO 09:22:34 127.0.0.1 [15/Dec/2023:09:22:34 +0300] "GET /hey HTTP/1.1" 200 176 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+web_protocol.py 421 ERROR 09:31:14 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 09:31:14 127.0.0.1 [15/Dec/2023:09:31:14 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+web_protocol.py 421 ERROR 09:41:14 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 09:41:14 127.0.0.1 [15/Dec/2023:09:41:14 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+web_protocol.py 421 ERROR 09:51:15 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 09:51:15 127.0.0.1 [15/Dec/2023:09:51:15 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+web_protocol.py 421 ERROR 10:01:14 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 10:01:14 127.0.0.1 [15/Dec/2023:10:01:14 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+web_protocol.py 421 ERROR 10:11:15 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 10:11:15 127.0.0.1 [15/Dec/2023:10:11:15 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+web_protocol.py 421 ERROR 10:21:15 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 10:21:15 127.0.0.1 [15/Dec/2023:10:21:15 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+web_protocol.py 421 ERROR 10:31:16 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 10:31:16 127.0.0.1 [15/Dec/2023:10:31:16 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+aiohttp_server.py 9 DEBUG 10:40:26 Hey
+web_log.py 211 INFO 10:40:26 127.0.0.1 [15/Dec/2023:10:40:26 +0300] "GET /hey HTTP/1.1" 200 176 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+web_protocol.py 421 ERROR 10:41:16 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 10:41:16 127.0.0.1 [15/Dec/2023:10:41:16 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+web_protocol.py 421 ERROR 10:51:27 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 10:51:27 127.0.0.1 [15/Dec/2023:10:51:27 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+proactor_events.py 630 DEBUG 10:51:49 Using proactor: IocpProactor
+aiohttp_server.py 9 DEBUG 10:51:56 Hey
+web_log.py 211 INFO 10:51:56 127.0.0.1 [15/Dec/2023:10:51:56 +0300] "GET /hey HTTP/1.1" 200 176 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+aiohttp_server.py 9 DEBUG 10:54:39 Hey
+web_log.py 211 INFO 10:54:39 127.0.0.1 [15/Dec/2023:10:54:39 +0300] "GET /hey HTTP/1.1" 200 176 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+aiohttp_server.py 9 DEBUG 10:54:42 Hey
+web_log.py 211 INFO 10:54:42 127.0.0.1 [15/Dec/2023:10:54:42 +0300] "GET /hey HTTP/1.1" 200 176 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+proactor_events.py 630 DEBUG 10:54:57 Using proactor: IocpProactor
+aiohttp_server.py 9 DEBUG 10:55:00 Hey
+web_log.py 211 INFO 10:55:00 127.0.0.1 [15/Dec/2023:10:55:00 +0300] "GET /hey HTTP/1.1" 200 327 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+aiohttp_server.py 9 DEBUG 10:57:08 Hey
+web_log.py 211 INFO 10:57:08 127.0.0.1 [15/Dec/2023:10:57:08 +0300] "GET /hey HTTP/1.1" 200 327 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+aiohttp_server.py 9 DEBUG 10:57:09 Hey
+web_log.py 211 INFO 10:57:09 127.0.0.1 [15/Dec/2023:10:57:09 +0300] "GET /hey HTTP/1.1" 200 327 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0"
+web_protocol.py 421 ERROR 11:01:28 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 11:01:28 127.0.0.1 [15/Dec/2023:11:01:28 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"
+web_protocol.py 421 ERROR 11:11:28 Error handling request
+Traceback (most recent call last):
+  File "C:\Users\Hello\Documents\PythonProjects\promodata_test\virt-promodata\lib\site-packages\aiohttp\web_protocol.py", line 350, in data_received
+    messages, upgraded, tail = self._request_parser.feed_data(data)
+  File "aiohttp\\_http_parser.pyx", line 557, in aiohttp._http_parser.HttpParser.feed_data
+aiohttp.http_exceptions.BadStatusLine: 400, message:
+  Invalid method encountered:
+
+    bytearray(b'\x16\x03\x01\x02')
+                 ^
+web_log.py 211 INFO 11:11:28 127.0.0.1 [15/Dec/2023:11:11:28 +0300] "UNKNOWN / HTTP/1.0" 400 239 "-" "-"

@@ -3,3 +3,5 @@ virt-promodata
 __pycache__
 
 *.pyc
+
+test.py

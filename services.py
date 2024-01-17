@@ -1,6 +1,7 @@
 
 import time
 import json
+import asyncio
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -12,9 +13,9 @@ from bs4 import BeautifulSoup as bs
 
 
 chrome_options = Options()
-chrome_options.add_argument('--headless')
-chrome_options.add_argument('--no-sandbox')
-chrome_options.add_argument('--disable-dev-shm-usage')
+# chrome_options.add_argument('--headless')
+# chrome_options.add_argument('--no-sandbox')
+# chrome_options.add_argument('--disable-dev-shm-usage')
 
 
 ITEM_DATA_STRINGS = {
@@ -63,6 +64,7 @@ def thread_parsing(URL):
     driver = webdriver.Chrome(options=chrome_options)
     driver.set_page_load_timeout(time_to_wait=10)
 
+    print('!', driver)
     try:
         driver.get(URL)
     except TimeoutException:
